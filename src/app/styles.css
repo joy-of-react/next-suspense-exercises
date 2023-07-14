@@ -45,3 +45,11 @@ h6 {
 #__next {
   isolation: isolate;
 }
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+html {
+  scrollbar-gutter: stable;
+}

@@ -8,8 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.0",
+    "lodash.range": "^3.2.0",
+    "lorem-ipsum": "^2.0.8",
+    "next": "^13.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10"
   }
 }
