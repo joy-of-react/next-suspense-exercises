@@ -14,6 +14,7 @@ const LINKS = [
     slug: 'platform',
     label: 'Platform',
     href: '/platform',
+    type: 'primary',
   },
   {
     slug: 'solutions',

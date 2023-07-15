@@ -18,14 +18,17 @@
   align-items: baseline;
   border-bottom: 1px solid hsl(260deg 20% 90%);
 }
-.site-header a {
-  text-decoration: none;
-  color: black;
-}
 .site-header .logo {
   font-size: 1.5rem;
   font-weight: 500;
-  color: hsl(260deg 100% 50%);
+  background: hsl(260deg 100% 50%);
+  color: white;
+  padding: 24px;
+  text-decoration: none;
+  margin-bottom: -1px;
+}
+.site-header nav {
+  overflow: auto;
   padding: 24px;
 }
 .header-nav-links {
@@ -34,9 +37,12 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
-.site-header nav {
-  overflow: auto;
-  padding: 24px;
+.site-header .header-nav-link {
+  text-decoration: none;
+  color: black;
+}
+.site-header .header-nav-link.primary {
+  color: hsl(260deg 100% 50%);
 }
 
 main {
@@ -56,9 +62,15 @@ main {
   flex-shrink: 10000;
 }
 .site-footer .logo {
-  font-size: 1.5rem;
+  display: block;
+  width: max-content;
+  font-size: 1.25rem;
   font-weight: 500;
-  color: hsl(260deg 100% 50%);
+  margin-bottom: 8px;
+  background: hsl(260deg 100% 50%);
+  color: white;
+  padding: 16px 24px;
+  text-decoration: none;
 }
 .site-footer .disclaimer {
   font-size: 0.875rem;
