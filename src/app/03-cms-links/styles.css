@@ -1,0 +1,83 @@
+.cms-links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  max-width: 1000px;
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0 auto;
+  font-weight: 300;
+  font-family: var(--font-family-primary),
+    sans-serif;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 1px solid hsl(260deg 20% 90%);
+}
+.site-header a {
+  text-decoration: none;
+  color: black;
+}
+.site-header .logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: hsl(260deg 100% 50%);
+  padding: 24px;
+}
+.header-nav-links {
+  display: flex;
+  gap: 32px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.site-header nav {
+  overflow: auto;
+  padding: 24px;
+}
+
+main {
+  flex: 1;
+  padding: 24px;
+  font-size: 1rem;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  background: hsl(260deg 20% 94%);
+  padding: 24px;
+}
+.site-footer .logo-wrapper {
+  flex-shrink: 10000;
+}
+.site-footer .logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: hsl(260deg 100% 50%);
+}
+.site-footer .disclaimer {
+  font-size: 0.875rem;
+}
+.site-footer .link-wrapper {
+  display: flex;
+  gap: 48px;
+}
+.site-footer h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+.site-footer ol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 1rem;
+}
+.site-footer ol a {
+  color: inherit;
+  text-decoration: none;
+}

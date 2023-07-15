@@ -3,6 +3,8 @@ import React from 'react';
 import { getComments } from '@/helpers/interview-helpers';
 import Comment from '@/components/Comment';
 
+export const dynamic = 'force-dynamic';
+
 async function InterviewExercise() {
   const comments = await getComments();
 

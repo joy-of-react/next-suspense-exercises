@@ -3,6 +3,8 @@ import React from 'react';
 import { getGamesInLibrary } from '@/helpers/vapor-helpers';
 import LibraryGameCard from '@/components/LibraryGameCard';
 
+export const dynamic = 'force-dynamic';
+
 async function VaporExercise() {
   const games = await getGamesInLibrary();
 
