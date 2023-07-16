@@ -1,7 +1,11 @@
-export async function getNavLinks() {
-  await delay(2500);
+import React from 'react';
 
-  return LINKS;
+export async function getNavLinks(
+  { maxCount } = { maxCount: 1000 }
+) {
+  await delay(1000);
+
+  return LINKS.slice(0, maxCount);
 }
 
 const delay = (ms) =>

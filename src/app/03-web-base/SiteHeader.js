@@ -1,18 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { getNavLinks } from '@/helpers/cms-helpers';
+import { getNavLinks } from '@/helpers/web-base-helpers';
 
 async function SiteHeader() {
-  let navLinks = await getNavLinks();
-
-  // Only show the first 4 in the header
-  navLinks = navLinks.slice(0, 4);
+  let navLinks = await getNavLinks({
+    maxCount: 4,
+  });
 
   return (
     <header className="site-header">
       <Link href="" className="logo">
-        Webzip
+        WebBase
       </Link>
       <nav>
         <ol className="header-nav-links">

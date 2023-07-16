@@ -10,10 +10,10 @@ const primaryFont = Kanit({
   subsets: ['latin'],
 });
 
-function CMSLinksLayout({ children }) {
+function WebBaseLayout({ children }) {
   return (
     <div
-      className="cms-links"
+      className="web-base"
       style={{
         '--font-family-primary':
           primaryFont.style.fontFamily,
@@ -26,4 +26,4 @@ function CMSLinksLayout({ children }) {
   );
 }
 
-export default CMSLinksLayout;
+export default WebBaseLayout;

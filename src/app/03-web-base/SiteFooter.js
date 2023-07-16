@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { getNavLinks } from '@/helpers/cms-helpers';
+import { getNavLinks } from '@/helpers/web-base-helpers';
 
 async function SiteFooter() {
   const navLinks = await getNavLinks();
