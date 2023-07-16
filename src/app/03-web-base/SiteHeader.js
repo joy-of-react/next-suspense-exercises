@@ -4,9 +4,10 @@ import Link from 'next/link';
 import { getNavLinks } from '@/helpers/web-base-helpers';
 
 async function SiteHeader() {
-  let navLinks = await getNavLinks({
-    maxCount: 4,
-  });
+  let navLinks = await getNavLinks();
+
+  // Only show the first 4 links in the header.
+  navLinks = navLinks.slice(0, 4);
 
   return (
     <header className="site-header">
