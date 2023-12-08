@@ -7,7 +7,7 @@ async function SiteFooter() {
   const navLinks = await getNavLinks();
 
   return (
-    <header className="site-footer">
+    <footer className="site-footer">
       <div className="logo-wrapper">
         <Link href="" className="logo">
           Webzip
@@ -54,7 +54,7 @@ async function SiteFooter() {
           </nav>
         </div>
       </div>
-    </header>
+    </footer>
   );
 }
 
