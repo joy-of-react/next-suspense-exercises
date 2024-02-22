@@ -3,11 +3,8 @@ import React from 'react';
 function Home() {
   return (
     <main className="homepage">
-      <h1>Next 13 Suspense exercises</h1>
-      <p>
-        There are 3 exercises held within this
-        repository:
-      </p>
+      <h1>Next Suspense exercises</h1>
+      <p>There are 3 exercises held within this repository:</p>
       <ol>
         <li>
           {/*
@@ -22,14 +19,10 @@ function Home() {
           <a href="/01-vapor">Vapor Games</a>
         </li>
         <li>
-          <a href="/02-interview">
-            Artist Interview with Comments
-          </a>
+          <a href="/02-interview">Artist Interview with Comments</a>
         </li>
         <li>
-          <a href="/03-web-base">
-            WebBase landing page w/ CMS links
-          </a>
+          <a href="/03-web-base">WebBase landing page w/ CMS links</a>
         </li>
       </ol>
     </main>
